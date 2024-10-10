@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Ponyland completed!",
+ "creation": "2024-10-11 01:55:04.966017",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "are_you_a_pony_person"
+ ],
+ "fields": [
+  {
+   "fieldname": "are_you_a_pony_person",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are You a Pony Person?",
+   "options": "No\nYes",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-11 02:20:33.937796",
+ "modified_by": "Administrator",
+ "module": "Save Game",
+ "name": "Ponyland",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

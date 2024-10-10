@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-11 01:23:12.583816",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "key"
+ ],
+ "fields": [
+  {
+   "fieldname": "key",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "key",
+   "non_negative": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-10-11 03:18:04.491677",
+ "modified_by": "Administrator",
+ "module": "Save Game",
+ "name": "Save Key",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

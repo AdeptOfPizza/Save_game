@@ -5,6 +5,13 @@ app_description = "funny little game on Frappe! All you need is to save the file
 app_email = "save@mail.com"
 app_license = "mit"
 
+
+fixtures = [
+{
+ 'doctype': "Save Key"    
+}
+
+]
 # Apps
 # ------------------
 
